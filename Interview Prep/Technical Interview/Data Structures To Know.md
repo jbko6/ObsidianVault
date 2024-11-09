@@ -6,4 +6,4 @@
 6. [[Sliding Window]]
 7. [[Heaps]]
 
-Dynamic programming not super common
+Dynamic programming not super common but good to learn later

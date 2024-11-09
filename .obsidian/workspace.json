@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2b87cc52c602497c",
+        "id": "7cc898988921f08f",
         "type": "tabs",
         "children": [
           {
-            "id": "6c3e84e8945e4396",
+            "id": "4d9ef2b873c89f7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview Prep/Technical Interview/Data Structures/Breadth First Search.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Breadth First Search"
+              "title": "New tab"
             }
           }
         ]
@@ -155,13 +150,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "fe8d73a5b26a21ef",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,24 +176,31 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c3e84e8945e4396",
+  "active": "4d9ef2b873c89f7f",
   "lastOpenFiles": [
-    "Interview Prep/Technical Interview/Data Structures/Binary Search.md",
     "Interview Prep/Technical Interview/Data Structures To Know.md",
-    "Interview Prep/Technical Interview/Data Structures/Sliding Window.md",
-    "Interview Prep/Technical Interview/Data Structures/Breadth First Search.md",
     "Interview Prep/Technical Interview/Data Structures/Depth First Search.md",
+    "Interview Prep/Behavioral Interview Tips.md",
+    "College Laptop.md",
+    "Pasted image 20241105230640.png",
+    "UW Bucketlist.md",
+    "UW Important Dates.md",
+    "Shoes.md",
+    "Internships.md",
+    "Dorm Items.md",
+    "Interview Prep/Technical Interview/Data Structures/Breadth First Search.md",
+    "Interview Prep/Technical Interview/Data Structures/Binary Search.md",
+    "Interview Prep/Technical Interview/Data Structures/Sliding Window.md",
     "Interview Prep/Technical Interview/Data Structures/Hashmaps.md",
     "Interview Prep/Technical Interview/Data Structures/Heaps.md",
     "Interview Prep/Technical Interview/Data Structures",
     "Interview Prep/Technical Interview/Technical Interview Tips.md",
-    "Interview Prep/Behavioral Interview Tips.md",
     "Interview Prep/Technical Interview",
     "Interview Prep/Technical Interview/Data Structures/Recursion.md",
-    "UW Bucketlist.md",
     "Classes/Math 208/11-8-24.md",
     "Untitled.md",
     "Interview Prep",
@@ -200,12 +212,6 @@
     "Classes/ARCH 150/11-5-24.md",
     "Classes/ARCH 150/PXL_20241015_225729801.jpg",
     "Classes/Math 208/11-4-24.md",
-    "Classes/Math 208/Assignments/10-2-24 Required.md",
-    "Classes/Math 208/Assignments/10-10-24 Required.md",
-    "Classes/Math 208/Assignments/10-17-24 Required.md",
-    "Classes/Math 208/Assignments/10-31-24 Required.md",
-    "Classes/Math 208/Assignments/10-2-24 Optional.md",
-    "Pasted image 20241105230640.png",
     "Classes/Math 208/Pasted image 20241030135232.png",
     "Classes/Math 208/Pasted image 20241030140344.png",
     "Classes/Math 208/Pasted image 20241030140002.png",
