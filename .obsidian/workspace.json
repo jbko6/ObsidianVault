@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Prep/Technical Interview/Data Structures & Algorithms/Stacks.md",
+                "file": "Interview Prep/Technical Interview/Data Structures & Algorithms/Sliding Window.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stacks"
+              "title": "Sliding Window"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "4d9ef2b873c89f7f",
   "lastOpenFiles": [
-    "Interview Prep/Technical Interview/Data Structures & Algorithms/Backtracking.md",
     "Interview Prep/Technical Interview/Data Structures & Algorithms/Stacks.md",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms/Backtracking.md",
     "Interview Prep/Technical Interview/Data Structures & Algorithms/Breadth First Search.md",
     "Interview Prep/Technical Interview/Data Structures & Algorithms/Depth First Search.md",
     "Interview Prep/Technical Interview/Data Structures & Algorithms/Binary Search.md",
