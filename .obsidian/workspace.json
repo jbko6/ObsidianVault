@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Prep/Technical Interview/Data Structures/Depth First Search.md",
+                "file": "Interview Prep/Technical Interview/Data Structures/Breadth First Search.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Depth First Search"
+              "title": "Breadth First Search"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "4d9ef2b873c89f7f",
   "lastOpenFiles": [
-    "Interview Prep/Technical Interview/Data Structures/Binary Search.md",
     "Interview Prep/Technical Interview/Data Structures/Depth First Search.md",
+    "Interview Prep/Technical Interview/Data Structures/Binary Search.md",
     "Interview Prep/Technical Interview/Data Structures/Union-Find.md",
     "Interview Prep/Technical Interview/Data Structures/Breadth First Search.md",
     "Interview Prep/Technical Interview/Data Structures/Sliding Window.md",
