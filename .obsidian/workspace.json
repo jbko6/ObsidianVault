@@ -11,10 +11,15 @@
             "id": "4d9ef2b873c89f7f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Interview Prep/Technical Interview/Data Structures/Depth First Search.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Depth First Search"
             }
           }
         ]
@@ -48,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dome",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 265.5
   },
   "right": {
     "id": "feb9980ed4351bd4",
@@ -166,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,8 +188,12 @@
   },
   "active": "4d9ef2b873c89f7f",
   "lastOpenFiles": [
-    "Interview Prep/Technical Interview/Data Structures To Know.md",
+    "Interview Prep/Technical Interview/Data Structures/Binary Search.md",
     "Interview Prep/Technical Interview/Data Structures/Depth First Search.md",
+    "Interview Prep/Technical Interview/Data Structures/Union-Find.md",
+    "Interview Prep/Technical Interview/Data Structures/Breadth First Search.md",
+    "Interview Prep/Technical Interview/Data Structures/Sliding Window.md",
+    "Interview Prep/Technical Interview/Data Structures To Know.md",
     "Interview Prep/Behavioral Interview Tips.md",
     "College Laptop.md",
     "Pasted image 20241105230640.png",
@@ -192,9 +202,6 @@
     "Shoes.md",
     "Internships.md",
     "Dorm Items.md",
-    "Interview Prep/Technical Interview/Data Structures/Breadth First Search.md",
-    "Interview Prep/Technical Interview/Data Structures/Binary Search.md",
-    "Interview Prep/Technical Interview/Data Structures/Sliding Window.md",
     "Interview Prep/Technical Interview/Data Structures/Hashmaps.md",
     "Interview Prep/Technical Interview/Data Structures/Heaps.md",
     "Interview Prep/Technical Interview/Data Structures",
