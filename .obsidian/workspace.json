@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "fc8c35a97518fe57",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b87cc52c602497c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c3e84e8945e4396",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview Prep/Technical Interview/Data Structures/Breadth First Search.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Breadth First Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8d5181ceb584c625",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f7a8dac5aa7ae89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb01feda87cb2764",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3ac7680ee2d2890c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "dome",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ee712b01f453dbd7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5
+  },
+  "right": {
+    "id": "feb9980ed4351bd4",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb0826fc0d435173",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81fc9b471cb05f0e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Classes/Math 208/Assignments/10-17-24 Required.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 10-17-24 Required"
+            }
+          },
+          {
+            "id": "2842e43a06569230",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Classes/Math 208/Assignments/10-17-24 Required.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 10-17-24 Required"
+            }
+          },
+          {
+            "id": "25fa4b0f4fe176aa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5121dd8086f8784d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Classes/Math 208/Assignments/10-17-24 Required.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 10-17-24 Required"
+            }
+          },
+          {
+            "id": "21f14ef58ffb7730",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "6c3e84e8945e4396",
+  "lastOpenFiles": [
+    "Interview Prep/Technical Interview/Data Structures/Binary Search.md",
+    "Interview Prep/Technical Interview/Data Structures To Know.md",
+    "Interview Prep/Technical Interview/Data Structures/Sliding Window.md",
+    "Interview Prep/Technical Interview/Data Structures/Breadth First Search.md",
+    "Interview Prep/Technical Interview/Data Structures/Depth First Search.md",
+    "Interview Prep/Technical Interview/Data Structures/Hashmaps.md",
+    "Interview Prep/Technical Interview/Data Structures/Heaps.md",
+    "Interview Prep/Technical Interview/Data Structures",
+    "Interview Prep/Technical Interview/Technical Interview Tips.md",
+    "Interview Prep/Behavioral Interview Tips.md",
+    "Interview Prep/Technical Interview",
+    "Interview Prep/Technical Interview/Data Structures/Recursion.md",
+    "UW Bucketlist.md",
+    "Classes/Math 208/11-8-24.md",
+    "Untitled.md",
+    "Interview Prep",
+    "Classes/Math 208/11-6-24.md",
+    "Classes/Math 208/Assignments/11-7-24 Required.md",
+    "Classes/ARCH 150/11-7-24.md",
+    "Classes/ARCH 150/10-29-24.md",
+    "Classes/ARCH 150/10-31-24.md",
+    "Classes/ARCH 150/11-5-24.md",
+    "Classes/ARCH 150/PXL_20241015_225729801.jpg",
+    "Classes/Math 208/11-4-24.md",
+    "Classes/Math 208/Assignments/10-2-24 Required.md",
+    "Classes/Math 208/Assignments/10-10-24 Required.md",
+    "Classes/Math 208/Assignments/10-17-24 Required.md",
+    "Classes/Math 208/Assignments/10-31-24 Required.md",
+    "Classes/Math 208/Assignments/10-2-24 Optional.md",
+    "Pasted image 20241105230640.png",
+    "Classes/Math 208/Pasted image 20241030135232.png",
+    "Classes/Math 208/Pasted image 20241030140344.png",
+    "Classes/Math 208/Pasted image 20241030140002.png",
+    "Classes/Math 208/Pasted image 20241030135906.png"
+  ]
+}

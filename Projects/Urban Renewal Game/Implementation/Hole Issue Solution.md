@@ -1,0 +1,2 @@
+To avoid the algorithm generating holes in solid voxel groups, prioritize voxels that maintain the most connections. Connections are measured by the number of sockets that are not -1 in blender.
+Under this approach, blank space would be the most prioritized. However, blank space would only ever be possible if the voxel is surrounded on all sides as long as we remove empty space as a possibility except when all sides are surrounded.

@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"c3356dedaee1c048","type":"file","file":"Images/Self/Style/beige_fit.webp","x":-285,"y":-138,"width":300,"height":400},
+		{"id":"afcfb3b0b7c565d0","type":"file","file":"Images/Self/Style/cloak.webp","x":15,"y":-138,"width":300,"height":400},
+		{"id":"92fe2c7905505b64","type":"file","file":"Images/Self/Style/jacket_hoodie.webp","x":315,"y":-138,"width":320,"height":400},
+		{"id":"766bcf7d2646d25b","type":"file","file":"Images/Self/Style/jacket_hoodie_2.webp","x":635,"y":-138,"width":300,"height":400},
+		{"id":"2a6c696a4d8bc56e","type":"file","file":"Images/Self/Style/long_coat.png","x":-285,"y":262,"width":323,"height":400},
+		{"id":"88f086685a3a733e","type":"file","file":"Images/Self/Style/poncho.webp","x":354,"y":262,"width":300,"height":400},
+		{"id":"62f7b665af6f72d0","type":"file","file":"Images/Self/Style/turtlenecks.webp","x":654,"y":262,"width":238,"height":400},
+		{"id":"74c27e69fcfe4162","type":"text","text":"stuff i GYATT to get:\ncloak\nponcho / shawl\nsilver jewelry\nmore jackets to overlay\nmore shoes with diff. colorways (bulky or classy)\nmore belts\nmaybe some for a keychain loop","x":38,"y":680,"width":535,"height":400},
+		{"id":"97b16e4095248cf1","type":"file","file":"Images/Self/Style/night_roaming.webp","x":38,"y":262,"width":316,"height":400}
+	],
+	"edges":[]
+}
