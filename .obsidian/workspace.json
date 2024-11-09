@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Prep/Technical Interview/Data Structures/Breadth First Search.md",
+                "file": "Interview Prep/Technical Interview/Data Structures & Algorithms/Stacks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Breadth First Search"
+              "title": "Stacks"
             }
           }
         ]
@@ -188,11 +188,13 @@
   },
   "active": "4d9ef2b873c89f7f",
   "lastOpenFiles": [
-    "Interview Prep/Technical Interview/Data Structures/Depth First Search.md",
-    "Interview Prep/Technical Interview/Data Structures/Binary Search.md",
-    "Interview Prep/Technical Interview/Data Structures/Union-Find.md",
-    "Interview Prep/Technical Interview/Data Structures/Breadth First Search.md",
-    "Interview Prep/Technical Interview/Data Structures/Sliding Window.md",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms/Backtracking.md",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms/Stacks.md",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms/Breadth First Search.md",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms/Depth First Search.md",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms/Binary Search.md",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms/Union-Find.md",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms/Sliding Window.md",
     "Interview Prep/Technical Interview/Data Structures To Know.md",
     "Interview Prep/Behavioral Interview Tips.md",
     "College Laptop.md",
@@ -202,12 +204,12 @@
     "Shoes.md",
     "Internships.md",
     "Dorm Items.md",
-    "Interview Prep/Technical Interview/Data Structures/Hashmaps.md",
-    "Interview Prep/Technical Interview/Data Structures/Heaps.md",
-    "Interview Prep/Technical Interview/Data Structures",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms/Hashmaps.md",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms/Heaps.md",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms",
     "Interview Prep/Technical Interview/Technical Interview Tips.md",
     "Interview Prep/Technical Interview",
-    "Interview Prep/Technical Interview/Data Structures/Recursion.md",
+    "Interview Prep/Technical Interview/Data Structures & Algorithms/Recursion.md",
     "Classes/Math 208/11-8-24.md",
     "Untitled.md",
     "Interview Prep",
@@ -216,9 +218,7 @@
     "Classes/ARCH 150/11-7-24.md",
     "Classes/ARCH 150/10-29-24.md",
     "Classes/ARCH 150/10-31-24.md",
-    "Classes/ARCH 150/11-5-24.md",
     "Classes/ARCH 150/PXL_20241015_225729801.jpg",
-    "Classes/Math 208/11-4-24.md",
     "Classes/Math 208/Pasted image 20241030135232.png",
     "Classes/Math 208/Pasted image 20241030140344.png",
     "Classes/Math 208/Pasted image 20241030140002.png",
