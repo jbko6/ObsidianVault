@@ -264,5 +264,45 @@ $$
 -\frac{1}{2}
 \end{bmatrix}
 $$
-
-
+11. Find the change of basis matrix to convert $I$ to $B$. Then represent the vector $x$ in the basis $B$.
+$$
+B=\left\{ \begin{bmatrix}
+1\\0\\0
+\end{bmatrix},\begin{bmatrix}
+-1\\-2\\1
+\end{bmatrix},\begin{bmatrix}
+1\\-1\\1
+\end{bmatrix} \right\},[x]=\begin{bmatrix}
+1\\2\\-1
+\end{bmatrix}
+$$
+The change of basis matrix from $B$ to $I$ is
+$$
+\begin{bmatrix}
+1 & -1 & 1 \\
+0 & 2 & -1 \\
+0 & 1 & 1
+\end{bmatrix}
+$$
+The inverse of this matrix (from $I$ to $B$ now) is
+$$
+\begin{bmatrix}
+1 & \frac{2}{3} & -\frac{1}{3} \\
+0 & \frac{1}{3} & \frac{1}{3} \\
+0 & -\frac{1}{3} & \frac{2}{3}
+\end{bmatrix}
+$$
+So the vector $x$ in the basis $B$ is:
+$$
+\begin{bmatrix}
+1 & \frac{2}{3} & -\frac{1}{3} \\
+0 & \frac{1}{3} & \frac{1}{3} \\
+0 & -\frac{1}{3} & \frac{2}{3}
+\end{bmatrix}\begin{bmatrix}
+1\\2\\-1
+\end{bmatrix}=\begin{bmatrix}
+\frac{8}{3} \\
+\frac{1}{3} \\
+-\frac{4}{3}
+\end{bmatrix}
+$$
