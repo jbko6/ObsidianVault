@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/Math 208/11-13-24.md",
+                "file": "Classes/Math 208/Assignments/11-14-24 Required.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "11-13-24"
+              "title": "11-14-24 Required"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "4d9ef2b873c89f7f",
   "lastOpenFiles": [
-    "Classes/ARCH 150/10-3-24.md",
     "Classes/Math 208/11-13-24.md",
+    "Classes/ARCH 150/10-3-24.md",
     "Classes/Math 208/Assignments/11-14-24 Required.md",
     "Classes/Math 208/11-8-24.md",
     "Interview Prep/Behavioral Interview/Situations.md",
