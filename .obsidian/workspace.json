@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/ARCH 150/11-14-24.md",
+                "file": "Dorm Items.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-14-24"
+              "title": "Dorm Items"
+            }
+          },
+          {
+            "id": "19ca05770d35810c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classes/Math 208/11-18-24.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11-18-24"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,16 +201,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d9ef2b873c89f7f",
+  "active": "19ca05770d35810c",
   "lastOpenFiles": [
-    "Projects/Urban Renewal Game/Implementation/Algorithms.md",
+    "Blog/Test post.md",
+    "Dorm Items.md",
+    "Templates/Blog Post Template.md",
+    "Templates",
+    "Classes/Math 208/11-18-24.md",
+    "Blog",
     "Classes/Math 208/11-13-24.md",
+    "Classes/ARCH 150/11-14-24.md",
+    "Projects/Urban Renewal Game/Implementation/Algorithms.md",
     "Classes/Math 208/11-8-24.md",
     "Classes/Math 208/11-6-24.md",
     "Classes/Math 208/11-4-24.md",
     "Classes/Math 208/11-1-24.md",
     "Classes/Math 208/10-30-24.md",
-    "Classes/ARCH 150/11-14-24.md",
     "Classes/Math 208/Assignments/11-14-24 Required.md",
     "Classes/ENGL 197/Untitled.md",
     "Classes/ARCH 150/10-3-24.md",
@@ -210,12 +231,7 @@
     "Interview Prep/Technical Interview/Data Structures & Algorithms/Union-Find.md",
     "Interview Prep/Technical Interview/Data Structures To Know.md",
     "Interview Prep/Behavioral Interview Tips.md",
-    "College Laptop.md",
     "Pasted image 20241105230640.png",
-    "UW Bucketlist.md",
-    "UW Important Dates.md",
-    "Shoes.md",
-    "Internships.md",
     "Interview Prep/Technical Interview/Data Structures & Algorithms",
     "Interview Prep/Technical Interview",
     "Interview Prep",

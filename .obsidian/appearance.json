@@ -3,5 +3,6 @@
   "baseFontSize": 25,
   "enabledCssSnippets": [
     "print_appearance"
-  ]
+  ],
+  "theme": "system"
 }
