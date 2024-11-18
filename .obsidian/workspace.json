@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/Math 208/11-18-24.md",
+                "file": "Blog/2024-11-18-Test-post.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-18-24"
+              "title": "2024-11-18-Test-post"
             }
           }
         ],
@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,11 +203,11 @@
   },
   "active": "19ca05770d35810c",
   "lastOpenFiles": [
-    "Blog/Test post.md",
+    "Classes/Math 208/11-18-24.md",
+    "Blog/2024-11-18-Test-post.md",
     "Dorm Items.md",
     "Templates/Blog Post Template.md",
     "Templates",
-    "Classes/Math 208/11-18-24.md",
     "Blog",
     "Classes/Math 208/11-13-24.md",
     "Classes/ARCH 150/11-14-24.md",
