@@ -2,6 +2,8 @@ name: 'Submodule Notify Parent'
 
 on:
   push:
+    paths:
+      - Blog/**
     branches:
       - main    
 
