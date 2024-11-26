@@ -52,7 +52,6 @@ How has the West coped with this?
 	Japan reveals the ugliest parts of Western culture
 	Japan inserted itself into modernity on its own terms and thus threatened the racist foundations of modernity
 	The West simply reworks old stereotypes: "they" are barbaric and "we" are civilized; "they" are robots while "we" remain human
-	
 
 Could argue that the Other culture destroys its identity with itself to advance itself and to redefine itself
 
@@ -89,4 +88,5 @@ Neo Tokyo and the world of Akira as a whole is stuck in a cycle of rebirth as it
 Both Blade Runner and Akira have some form of technophobia
 	In Akira, this fear focuses on the hubris of modern science and believes it is uncapable of conquering nature's mysteries
 	In Blade Runner, this fear focuses on humanity's recklessness in dealing with nature; that by pursuing progress we leave behind our humanity and destroy our very nature
-	
+
+While both Blade Runner and Akira are shaped by technophobia, their genuine fears are quite different; In Akira, this fear focuses on the hubris of modern science and believes it is uncapable of conquering nature's mysteries. In Blade Runner, this fear focuses on humanity's recklessness in dealing with nature; that by pursuing progress we leave behind our humanity and destroy our very nature. Central to these fears are the historical contexts that support them. In Akira, this fear is founded on Japan's newfound technological superiority. Departing from the traditional framework of West and Orient is terrifying, even for those pioneering the transformation. Japan wonders how long its post-modern era can persist, or, in other words, how long until its world must be destroyed and rebuilt again. In Blade Runner this fear stems from the Japanese threat against Western economic, technological, and cultural dominance. Blade Runner posits Japan's new technology as inhuman, too detached from nature and overpowering our humanity. These xenophobic views are found throughout the set design of Blade Runner, as the Western bastion of Los Angeles is transformed by alien oriental elements; foreign food, depravity, ruthless efficiency.
