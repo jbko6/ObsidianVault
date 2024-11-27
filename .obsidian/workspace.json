@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/ENGL 197/2nd Essay Thoughts.md",
+                "file": "Classes/ARCH 150/11-19-24.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2nd Essay Thoughts"
+              "title": "11-19-24"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "intersecting",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "feb9980ed4351bd4",
@@ -189,14 +188,15 @@
   },
   "active": "2b91faab6099e5b7",
   "lastOpenFiles": [
+    "Classes/ARCH 150/11-21-24.md",
+    "Classes/ARCH 150/11-26-24.md",
+    "Classes/ENGL 197/2nd Essay Thoughts.md",
     "Classes/Math 208/11-25-24.md",
     "Classes/Math 208/Assignments/11-7-24 Required.md",
     "Classes/Math 208/Assignments/11-14-24 Required.md",
     "Classes/Math 208/11-22-24.md",
-    "Classes/ARCH 150/11-21-24.md",
     "Classes/ARCH 150/11-14-24.md",
     "Classes/ARCH 150/11-19-24.md",
-    "Classes/ENGL 197/2nd Essay Thoughts.md",
     "Classes/Math 208/11-20-24.md",
     "Blog/2024-11-19-the-painfully-slow-crawl-of-progress.md",
     "Blog/2024-11-19-just-get-it-done.md",
@@ -214,7 +214,6 @@
     "Blog/2024-11-18-new-article.md",
     "Blog/2024-11-18-Test-post.md",
     "Classes/Math 208/11-18-24.md",
-    "Dorm Items.md",
     "Templates",
     "Blog",
     "Interview Prep/Behavioral Interview",
