@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "feb9980ed4351bd4",
@@ -188,15 +189,15 @@
   },
   "active": "2b91faab6099e5b7",
   "lastOpenFiles": [
-    "Classes/ENGL 197/2nd Essay Thoughts.md",
+    "Classes/Math 208/11-22-24.md",
+    "Classes/Math 208/11-25-24.md",
     "Classes/Math 208/Assignments/11-28-24 Required.md",
+    "Classes/ENGL 197/2nd Essay Thoughts.md",
     "Classes/ARCH 150/11-19-24.md",
     "Classes/ARCH 150/11-21-24.md",
     "Classes/ARCH 150/11-26-24.md",
-    "Classes/Math 208/11-25-24.md",
     "Classes/Math 208/Assignments/11-7-24 Required.md",
     "Classes/Math 208/Assignments/11-14-24 Required.md",
-    "Classes/Math 208/11-22-24.md",
     "Classes/ARCH 150/11-14-24.md",
     "Classes/Math 208/11-20-24.md",
     "Blog/2024-11-19-the-painfully-slow-crawl-of-progress.md",
