@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3d491d13e9a698ab",
+        "id": "7885346525563006",
         "type": "tabs",
         "children": [
           {
-            "id": "2b91faab6099e5b7",
+            "id": "8beef9af1e211ced",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -187,10 +187,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b91faab6099e5b7",
+  "active": "8beef9af1e211ced",
   "lastOpenFiles": [
-    "Classes/Math 208/11-25-24.md",
     "Classes/Math 208/Assignments/11-28-24 Required.md",
+    "Classes/Math 208/11-25-24.md",
     "Classes/Math 208/11-22-24.md",
     "Classes/Math 208/11-13-24.md",
     "Classes/Math 208/11-18-24.md",

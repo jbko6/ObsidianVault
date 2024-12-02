@@ -399,44 +399,222 @@ A-4\text{Id}=\begin{bmatrix}
 4 & -3 & 5
 \end{bmatrix}
 $$
-Finding the null space:
-$R_{3}-R_{2}\to R_{3}$
+Finding the null space by G.E:
+$R_{2}-2R_{1}\to R_{2}$
+$R_{3}-2R_{1}\to R_{3}$
 $$
 \begin{bmatrix}
 2 & -3 & 7 \\
-4 & -3 & 5 \\
-0 & 0 & 0
+0 & 3 & -9 \\
+0 & 3 & -9
 \end{bmatrix}
 $$
-$R_{2}-2R_{1}\to R_{2}$
+$R_{3}-2R_{2}\to R_{3}$
 $$
 \begin{bmatrix}
-2 & -3 & 6 \\
+2 & -3 & 7 \\
 0 & 3 & -9 \\
 0 & 0 & 0
 \end{bmatrix}
 $$
+Finding the null space:
 $$
 \begin{align}
 x_{3}=s_{1} \\
-3x_{2}-9x_{3}, 3x_{2}=9x_{3},x_{2}=3x_{3},x_{2}=3s_{1} \\
-2x_{1}-3x_{2}+6x_{3},x_{1}=\frac{3}{2}x_{2}-3x_{3},x_{1}=\frac{9}{2}s_{1}-9s_{1}=-\frac{9}{2}s_{1}
+3x_{2}=9s_{1},x_{2}=3s_{1} \\
+2x_{1}=3x_{2}-7s_{1},2x_{1}=9s_{1}-7s_{1},x_{1}=s_{1}
 \end{align}
 $$
-So the null space is:
+By setting $s_{1}$ = 1 we find a valid basis for the eigenspace
 $$
 \begin{pmatrix}
--\frac{9}{2}s_{1} \\
-3s_{1} \\
-s_{1}
-\end{pmatrix}
-$$
-Setting $s_{1}=1$ finds a basis for this eigenspace
-$$
-\begin{pmatrix}
--\frac{9}{2} \\
+1 \\
 3 \\
 1
 \end{pmatrix}
 $$
+**For the next two problems for the matrix $A$, find the characteristic polynomial, the eigenvalues and a basis for each eigenspace.**
 
+25. $$
+A=\begin{bmatrix}
+3 & 0 & 0 \\
+1 & 2 & 0 \\
+-4 & 5 & -1
+\end{bmatrix}
+$$
+$$
+A-\lambda \text{Id}=\begin{bmatrix}
+3-\lambda & 0 & 0 \\
+1 & 2-\lambda & 0 \\
+-4 & 5 & -1-\lambda
+\end{bmatrix}
+$$
+$\det(A-\lambda \text{Id})=(3-\lambda)((2-\lambda)(-1-\lambda))$
+$=(3-\lambda)(-2-2\lambda+\lambda+\lambda^2)=-6-6\lambda+3\lambda+3\lambda^2+2\lambda+2\lambda^2-\lambda^2-\lambda^3$
+$=-\lambda^3+4\lambda^2-\lambda-6$
+The eigenvalues are 3, 2, and -1.
+$$
+\begin{bmatrix}
+0 & 0 & 0 \\
+1 & -1 & 0 \\
+-4 & 5 & -4
+\end{bmatrix}
+$$
+
+1. $$
+A=\begin{bmatrix}
+2 & 5 & 1 \\
+0 & -3 & -1 \\
+2 & 14 & 4
+\end{bmatrix}
+$$
+$$A-\lambda \text{Id}=\begin{bmatrix}2-\lambda & 5 & 1 \\
+0 & -3-\lambda & -1 \\
+2 & 14 & 4-\lambda\end{bmatrix}$$
+$\det(A-\lambda \text{Id})=(2-\lambda)((-3-\lambda)(4-\lambda)+14)-5(2)+1(-(-3-\lambda)(2))$
+$=-x^3+3x^2-2x$
+$=-x(x^2-3x+2)$
+The eigenvalues are 1 and 2
+
+47. Suppose that $A$ is a square matrix with characteristic polynomial
+$$
+(\lambda-3)^3(\lambda-2)^2(\lambda+1)
+$$
+
+(a) What are the dimensions of the matrix $A$?
+
+I think 3 dimensional because this polynomial has degree 3.
+
+(b) What are its eigenvalues?
+
+3, 2, and -1
+
+(c) Is the matrix $A$ invertible?
+
+Because this matrix does not have a zero eigenvalue, this matrix is invertible.
+
+(d) What is the largest possible dimension for an eigenspace of $A$?
+
+3, because $(\lambda-3)$ is raised to the third power.
+
+### Holt Section 6.2
+
+3. Let $A=PDP^{-1}$. Find $A^5$
+$$
+P=\begin{bmatrix}
+1 & 3 & 1 \\
+0 & -1 & 2 \\
+0 & 0 & -1
+\end{bmatrix},D=\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 2 & 0 \\
+0 & 0 & -1
+\end{bmatrix}
+$$
+$$
+A=\begin{bmatrix}
+1 & -3 & -4 \\
+0 & 2 & 6 \\
+0 & 0 & -1
+\end{bmatrix}
+$$
+$$
+A^5=\begin{bmatrix}
+1 & -93 & -184 \\
+0 & 32 & 66 \\
+0 & 0 & -1
+\end{bmatrix}
+$$
+7. Find a matrix $A$ with the given eigenvalues and eigenvectors.
+$$
+\lambda_{1}=-1\to \left\{ \begin{bmatrix}
+1\\1\\0
+\end{bmatrix} \right\},\lambda_{2}=0\to \left\{ \begin{bmatrix}
+1\\2\\1
+\end{bmatrix} \right\},\lambda_{3}=1\to \left\{ \begin{bmatrix}
+-1\\1\\1
+\end{bmatrix} \right\}
+$$
+Start with a matrix defined by the eigenvalues.
+$$
+E=\begin{bmatrix}
+1 & 0 & 0 \\
+0 & -2 & 0 \\
+0 & 0 & 2
+\end{bmatrix}
+$$Now use the change of basis matrix
+$$
+S=\begin{bmatrix}
+1 & 1 & -1 \\
+1 & 2 & 1 \\
+0 & 1 & 1
+\end{bmatrix}
+$$
+Compute $SES^-1$
+$$
+SES^{-1}=\begin{bmatrix}
+-1 & 2 & -35 \\
+-97 & 98 & -163 \\
+-64 & 64 & -96
+\end{bmatrix}
+$$
+This matrix fits the requirements.
+
+11. Diagonalize the matrix $A$, if it is possible to do so.
+$$
+A=\begin{bmatrix}
+7 & -8 \\
+4 & -5
+\end{bmatrix}
+$$
+First we need to find the eigenvalues
+$$
+A-\lambda \text{Id}=\begin{bmatrix}
+7-\lambda & -8 \\
+4 & -5-\lambda
+\end{bmatrix}
+$$
+$\det(A-\lambda)=(7-\lambda)(-5-\lambda)+32$
+The eigenvalues are -1 and 3
+Now we find the eigenvectors for each of these
+$$
+A+1\text{Id}=\begin{bmatrix}
+8 & -8 \\
+4 & -4
+\end{bmatrix}\to^{GE}\begin{bmatrix}
+8 & -8 \\
+0 & 0
+\end{bmatrix}
+$$
+
+$x_{2}=s_{1}$
+$8x_{1}=8x_{2},x_{1}=s_{1}$
+The eigenvector is $\begin{bmatrix}s_{1}\\s_{1}\end{bmatrix}$
+For the other eigenvector:
+$$
+A-3\text{Id}=\begin{bmatrix}
+4 & -8 \\
+4 & -8
+\end{bmatrix}\to^{GE}\begin{bmatrix}
+4 & -8 \\
+0 & 0
+\end{bmatrix}
+$$
+$x_{2}=s_{1}$
+$4x_{1}=8x_{2},x_{1}=2s_{1}$
+The eigenvector is $\begin{bmatrix}2s_{1}\\s_{1}\end{bmatrix}$
+Now our matrix $P$ is
+$$
+P=\begin{bmatrix}
+1 & 2 \\
+1 & 1
+\end{bmatrix}
+$$
+By finding $PAP^{-1}$ we find the diagonalization of $A$
+$$
+PAP^{-1}=\begin{bmatrix}
+-1 & 6 \\
+-1 & 3
+\end{bmatrix}
+$$
+Compute $A^{1000}$ for the matrix $A$ given below
