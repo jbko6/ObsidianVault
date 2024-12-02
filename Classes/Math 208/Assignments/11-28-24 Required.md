@@ -296,7 +296,7 @@ The determinant of this matrix is 0.
 $$
 y=f(x)=a_{0}+a_{1}x+a_{2}x^2
 $$
-	that passes through three specified points $p_{1}=(p_{1},q_{1})$, $p_{2}=(p_{2},q_{1})$, and $p_{3}=(p_{3},q_{3})$. Consider the equation
+that passes through three specified points $p_{1}=(p_{1},q_{1})$, $p_{2}=(p_{2},q_{1})$, and $p_{3}=(p_{3},q_{3})$. Consider the equation
 $$
 0=\det \begin{bmatrix}
 1 & x & x^2 & y \\
@@ -305,7 +305,7 @@ $$
 1 & p_{3} & p_{3}^2 & q_{3}
 \end{bmatrix}
 $$
-	The determinant above implicitly gives an equation $y=f(x)$
+The determinant above implicitly gives an equation $y=f(x)$
 
 (a) Write out the matrix above, using $p_{1}=(0,0),p_{2}=(1,1),p_{3}=(3,5)$ for the constants $p_{i},q_{i}$ but leaving $x$ and $y$ as variables. Solve the equation $\det(A)=0$ to get $y=a$ quadratic polynomial in $x$. Check directly that the parabola passes through $p_{1},p_{2}$ and $p_{3}$.
 
@@ -535,6 +535,7 @@ $$
 -1\\1\\1
 \end{bmatrix} \right\}
 $$
+
 Start with a matrix defined by the eigenvalues.
 $$
 E=\begin{bmatrix}
@@ -542,7 +543,8 @@ E=\begin{bmatrix}
 0 & -2 & 0 \\
 0 & 0 & 2
 \end{bmatrix}
-$$Now use the change of basis matrix
+$$
+Now use the change of basis matrix
 $$
 S=\begin{bmatrix}
 1 & 1 & -1 \\
@@ -576,45 +578,84 @@ A-\lambda \text{Id}=\begin{bmatrix}
 $$
 $\det(A-\lambda)=(7-\lambda)(-5-\lambda)+32$
 The eigenvalues are -1 and 3
-Now we find the eigenvectors for each of these
+So the diagonalization of $A$ is:
 $$
-A+1\text{Id}=\begin{bmatrix}
-8 & -8 \\
-4 & -4
-\end{bmatrix}\to^{GE}\begin{bmatrix}
-8 & -8 \\
-0 & 0
+\begin{bmatrix}
+-1 & 0 \\
+0 & 3
 \end{bmatrix}
 $$
 
-$x_{2}=s_{1}$
-$8x_{1}=8x_{2},x_{1}=s_{1}$
-The eigenvector is $\begin{bmatrix}s_{1}\\s_{1}\end{bmatrix}$
-For the other eigenvector:
+19. Compute $A^{1000}$ for the matrix $A$ given below
 $$
-A-3\text{Id}=\begin{bmatrix}
-4 & -8 \\
-4 & -8
-\end{bmatrix}\to^{GE}\begin{bmatrix}
-4 & -8 \\
-0 & 0
+A=\begin{bmatrix}
+-3 & 4 \\
+-2 & 3
 \end{bmatrix}
 $$
-$x_{2}=s_{1}$
-$4x_{1}=8x_{2},x_{1}=2s_{1}$
-The eigenvector is $\begin{bmatrix}2s_{1}\\s_{1}\end{bmatrix}$
-Now our matrix $P$ is
+First we need to diagonalize $A$.
+We will find the eigenvalues.
 $$
-P=\begin{bmatrix}
+A-\lambda \text{Id}=\begin{bmatrix}
+-3-\lambda & 4 \\
+-2 & 3-\lambda
+\end{bmatrix}
+$$
+$\det(A-\lambda \text{Id})=(-3-\lambda)(3-\lambda)+8=\lambda^2-1$
+The eigenvalues are -1 and 1
+So the diagonalized version of $A$ is
+$$
+D=\begin{bmatrix}
+1 & 0 \\
+0 & -1
+\end{bmatrix}
+$$
+Now to find an invertible matrix $P$ with columns of the eigenvectors.
+For eigenvalue -1:
+$$
+A+\text{Id}=\begin{bmatrix}
+-2 & 4 \\
+-2 & 4
+\end{bmatrix}
+$$
+A valid basis for the eigenspace is $\begin{pmatrix}1\\1\end{pmatrix}$
+For eigenvalue 1:
+$$
+A-\text{Id}=\begin{bmatrix}
+-4 & 4 \\
+-2 & 2
+\end{bmatrix}
+$$
+A valid basis for the eigenspace is $\begin{pmatrix}2\\1\end{pmatrix}$
+So the matrix $P$ becomes
+$$
+\begin{bmatrix}
 1 & 2 \\
 1 & 1
 \end{bmatrix}
 $$
-By finding $PAP^{-1}$ we find the diagonalization of $A$
+Now to find $A^{1000}$ we just find $PD^{1000}P^{-1}$
 $$
-PAP^{-1}=\begin{bmatrix}
--1 & 6 \\
--1 & 3
+D^{1000}=\begin{bmatrix}
+1 & 0 \\
+0 & -1
 \end{bmatrix}
 $$
-Compute $A^{1000}$ for the matrix $A$ given below
+So 
+$$
+PD^{1000}P^{-1}=\begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+$$
+Since $D^{1000}=\begin{bmatrix}1&0\\0&1\end{bmatrix}$
+
+33. Are the following statements true or false? Explain your answer.
+
+(a) If $A$ is a diagonalizable $n \times n$ matrix then $rank(A)=n$
+
+False, the zero matrix is diagonalizable but it has rank 0.
+
+(b) If $A$ and $B$ are diagonalizable $n \times n$ matrices then so is $AB$.
+
+This is false because if $A$ and $B$ do not commute then they cannot be diagonalizable.
