@@ -13,6 +13,7 @@ Multiplying matrices
 	Take the dot product
 	Multiply row by column to work out each output number
 	Both the columns and rows of a matrix can be presented as vectors
+	The new matrix found by multiplying $m\times n$ and $n \times p$ will be $m \times p$
 Inversing matrices
 	For a 2d matrix $\begin{bmatrix}a&b\\c&d\end{bmatrix}$ the inverse is $\begin{bmatrix}d&-b\\-c&a\end{bmatrix}$
 	For larger matrices, set up the matrix with the identity matrix by its side, then work out the left side to be the identity matrix
@@ -69,4 +70,14 @@ One-to-One
 		The columns of $A$ are **linearly independent**
 		$A$ as a pivot in every column
 		The $range$ of $T$ has dimension $n$
-		
+Onto
+	AKA surjective
+	The range of $T$ is equal to the subdomain of $T$
+	Every vector in the codomain is the output of some input vector
+	Equivalent statements:
+		$T$ is onto
+		$T(x)=b$ has at least one solution for every $b$ in $\mathbb{R}^m$
+		The columns of $A$ span $\mathbb{R}^m$
+		$A$ has a pivot in every row
+		The range of $T$ has dimension $m$.
+**If $A$ has pivots for every row and column, it is onto and one-to-one**
