@@ -81,3 +81,7 @@ Onto
 		$A$ has a pivot in every row
 		The range of $T$ has dimension $m$.
 **If $A$ has pivots for every row and column, it is onto and one-to-one**
+Change of basis
+	You can construct a matrix $\left[\begin{array}{c|c}V&U\end{array}\right]$ and solve for the identity matrix on the left and you'll end up with $V^{-1}U$
+Diagonalization
+	When is something diagonalizable
