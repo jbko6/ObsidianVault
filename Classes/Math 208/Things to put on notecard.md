@@ -84,4 +84,10 @@ Onto
 Change of basis
 	You can construct a matrix $\left[\begin{array}{c|c}V&U\end{array}\right]$ and solve for the identity matrix on the left and you'll end up with $V^{-1}U$
 Diagonalization
-	When is something diagonalizable
+	An $n \times n$ matrix is only diagonalizable when it has $n$ linearly independent eigenvalues.
+	To diagonalize, set the eigenvalues in a diagonal matrix
+	Then create a matrix with columns composed of the corresponding eigenvectors
+	$A=PDP^{-1}$
+		Where $P$ is a the eigenvector matrix and $D$ is the eigenvalue matrix
+	There are many ways to diagonalize any one matrix
+	

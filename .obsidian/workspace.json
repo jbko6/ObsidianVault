@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/Math 208/12-6-24.md",
+                "file": "Classes/Math 208/Assignments/12-5-24 Required.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12-6-24"
+              "title": "12-5-24 Required"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "intersecting",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,13 +189,14 @@
   "active": "3d35318d9439f351",
   "lastOpenFiles": [
     "Classes/Math 208/Things to put on notecard.md",
+    "Classes/Math 208/Assignments/12-5-24 Required.md",
     "Classes/Math 208/12-6-24.md",
+    "Classes/ARCH 150/11-21-24.md",
+    "Classes/ARCH 150/11-26-24.md",
+    "Classes/ARCH 150/12-3-24.md",
+    "Classes/ARCH 150/12-5-24.md",
     "Classes/Math 208/Pasted image 20241030135232.png",
     "Classes/Math 208/11-6-24.md",
-    "Classes/ARCH 150/12-5-24.md",
-    "Classes/ARCH 150/12-3-24.md",
-    "Classes/ARCH 150/11-26-24.md",
-    "Classes/ARCH 150/11-21-24.md",
     "Classes/Math 208/9-27-24.md",
     "Classes/Math 208/11-22-24.md",
     "Classes/Math 208/11-25-24.md",
@@ -203,7 +204,6 @@
     "Classes/Math 208/9-25-24.md",
     "Classes/Math 208/12-4-24.md",
     "Classes/Math 208/Assignments/11-28-24 Required.md",
-    "Classes/Math 208/Assignments/12-5-24 Required.md",
     "Classes/Math 208/11-20-24.md",
     "Classes/Math 208/12-2-24.md",
     "Classes/ENGL 197/2nd Essay Thoughts.md",
