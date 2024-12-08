@@ -208,4 +208,70 @@ A-\lambda \text{Id}=\begin{bmatrix}
 \frac{1}{3} & \frac{1}{3} & \frac{1}{3}-\lambda
 \end{bmatrix}
 $$
-$\det(A-\lambda \text{Id})=\left( \frac{1}{3}-\lambda \right)\left( \left( \frac{1}{3}-\lambda \right)^2-\frac{1}{9} \right)+\frac{1}{3}\left( \frac{1}{3}-\lambda \right)-\frac{1}{3}$
+$\det(A-\lambda \text{Id})=\left( \frac{1}{3}-\lambda \right)\left( \left( \frac{1}{3}-\lambda \right)^2-\frac{1}{9} \right)-\frac{1}{3}\left( \frac{1}{3}\left( \frac{1}{3}-\lambda \right)-\frac{1}{9} \right)+\frac{1}{3}\left( \frac{1}{9}-\frac{1}{3}\left( \frac{1}{3}-\lambda \right) \right)$
+$\det(A-\lambda \text{Id})=(1-\lambda)\lambda^2$
+The eigenvalues are 1 and 0
+Solving for the eigenspace of the 1 eigenvalue:
+$$
+A-\text{Id}=\begin{bmatrix}
+-\frac{2}{3} & \frac{1}{3} & \frac{1}{3} \\
+\frac{1}{3} & -\frac{2}{3} & \frac{1}{3} \\
+\frac{1}{3} & \frac{1}{3} & -\frac{2}{3}
+\end{bmatrix}
+$$
+Reducing this...
+$2R_{2}+R_{1}\to R_{2}$
+$2R_{3}+R_{1}\to R_{3}$
+$$
+\begin{bmatrix}
+-\frac{2}{3} & \frac{1}{3} & \frac{1}{3} \\
+0 & -1 & 1 \\
+0 & 1 & -1
+\end{bmatrix}
+$$
+$R_{2}+R_{3}\to R_{3}$
+$$
+\begin{bmatrix}
+-\frac{2}{3} & \frac{1}{3} & \frac{1}{3} \\
+0 & -1 & 1 \\
+0 & 0 & 0
+\end{bmatrix}
+$$
+$3R_{1}\to R_{1}$
+$$
+\begin{bmatrix}
+-2 & 1 & 1 \\
+0 & -1 & 1 \\
+0 & 0 & 0
+\end{bmatrix}
+$$
+$$
+\begin{align}
+x_{3}=s \\
+x_{2}=s \\
+-2x_{1}+2s=0\to x_{1}=s
+\end{align}
+$$
+$\begin{pmatrix}s\\s\\s\end{pmatrix}\to \begin{pmatrix}1\\1\\1\end{pmatrix}$
+Solving for the eigenspace of eigenvalue 0:
+We need to reduce our original matrix
+$R_{2}-R_{1}\to R_{2}$
+$R_{3}-R_{1}\to R_{3}$
+$3R_{1}\to R_{1}$
+$$
+\begin{bmatrix}
+1 & 1 & 1 \\
+0 & 0 & 0 \\
+0 & 0 & 0
+\end{bmatrix}
+$$
+$$
+\begin{align}
+x_{3}=s_{1} \\
+x_{2}=s_{2} \\
+x_{3}+s_{1}+s_{2}=0\to x_{3}=-s_{1}-s_{2}
+\end{align}
+$$
+$\left\{ \begin{pmatrix}-1\\1\\0\end{pmatrix},\begin{pmatrix}-1\\0\\1\end{pmatrix} \right\}$ is a basis for this eigenspace
+
+The 0 eigenspace makes sense because if the three components of the vector add up to one (in other words, if the magnitude of the vector = 1), then the matrix will always return 0. The 1 eigenspace also makes sense because if all the components of the vector are the same, then the 
