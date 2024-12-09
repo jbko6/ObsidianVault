@@ -24,6 +24,14 @@ d & e & f & 0 & 1 & 0 \\
 g & h & i & 0 & 0 & 1
 \end{array}\right]
 $$
+	The following are equivalent:
+		$A$ is invertible
+		$A$ has $n$ pivots
+		$\text{Nul}(A)=\{0\}$
+		The columns of $A$ are linearly independent
+		The columns of $A$ span $\mathbb{R}^n$
+		$T$ is onto
+		$T$ is one-to-one
 Transposing matrices
 	Just flip the rows and columns
 Determinant of a matrix
@@ -85,9 +93,13 @@ Change of basis
 	You can construct a matrix $\left[\begin{array}{c|c}V&U\end{array}\right]$ and solve for the identity matrix on the left and you'll end up with $V^{-1}U$
 Diagonalization
 	An $n \times n$ matrix is only diagonalizable when it has $n$ linearly independent eigenvalues.
+		The multiplicity of the eigenvalues when summed must be equal to the dimension of the matrix
 	To diagonalize, set the eigenvalues in a diagonal matrix
 	Then create a matrix with columns composed of the corresponding eigenvectors
 	$A=PDP^{-1}$
 		Where $P$ is a the eigenvector matrix and $D$ is the eigenvalue matrix
 	There are many ways to diagonalize any one matrix
+A faster way to compute the eigenvalues of 2d matrix
+	$m\pm \sqrt{ m^2-p }$
+	Where $m$ is the mean of the diagonal entries (aka mean of the eigenvalues) and $p$ is the determinant of the matrix (aka the product of the eigenvalues)
 	

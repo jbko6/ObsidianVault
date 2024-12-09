@@ -274,4 +274,157 @@ x_{3}+s_{1}+s_{2}=0\to x_{3}=-s_{1}-s_{2}
 $$
 $\left\{ \begin{pmatrix}-1\\1\\0\end{pmatrix},\begin{pmatrix}-1\\0\\1\end{pmatrix} \right\}$ is a basis for this eigenspace
 
-The 0 eigenspace makes sense because if the three components of the vector add up to one (in other words, if the magnitude of the vector = 1), then the matrix will always return 0. The 1 eigenspace also makes sense because if all the components of the vector are the same, then the 
+The 0 eigenspace makes sense because if the three components of the vector add up to one (in other words, if the magnitude of the vector = 1), then the matrix will always return 0. The 1 eigenspace also makes sense because if all the components of the vector are the same, then the component $\frac{1}{3}$s will add up to the original vector. This matrix essentially averages the three components of the vector and returns it. It should have the same magnitude as the original vector. If the vector is already averaged, then this matrix doesn't do anything.
+
+5. (Rotations)
+
+(a) Let $T:\mathbb{R}^2\to \mathbb{R}^2$ be rotation by $\frac{\pi}{3}$. Compute the characteristic polynomial of $T$, and find any eigenvalues and eigenvectors.
+
+The associated rotation matrix, which I'll call $A$. would look like this:
+$$
+\begin{bmatrix}
+\cos\left( \frac{\pi}{3} \right) & -\sin\left( \frac{\pi}{3} \right) \\
+\sin\left( \frac{\pi}{3} \right) & \cos\left( \frac{\pi}{3} \right)
+\end{bmatrix}
+$$
+Assuming the rotation is counterclockwise. Which works out to
+$$
+\begin{bmatrix}
+\frac{1}{2} & -\frac{\sqrt{ 3 }}{2} \\
+\frac{\sqrt{ 3 }}{2} & \frac{1}{2}
+\end{bmatrix}
+$$
+Now to compute the eigenvalues. I'm going to try computing them a different way, using the equation $\lambda=m\pm \sqrt{ m^2-p }$ where $m$ is the mean of the trace and $p$ is the determinant of the matrix, since the mean is easily worked out to be $\frac{1}{2}$.
+$$
+\det(A)=\frac{1}{4}+\frac{3}{2}=\frac{7}{4}
+$$
+$$
+\begin{align}
+\lambda=\frac{1}{2}\pm \sqrt{ \frac{1}{4}-\frac{7}{4} } \\
+\lambda=\frac{1}{2}\pm \sqrt{ -\frac{3}{2} }
+\end{align}
+$$
+The eigenvalues, $\lambda_{1}=\frac{1+i\sqrt{ 3 }}{2}$ and $\lambda_{2}=\frac{1-i\sqrt{ 3 }}{2}$ are imaginary. I really don't want to work out the eigenvectors mathematically because that would be painful 😭😭
+
+(b) Let $T:\mathbb{R}^3\to \mathbb{R}^3$ be a rotation in $\mathbb{R}^3$ by $\frac{\pi}{3}$ around some chosen axis $L$, a line through the origin in $\mathbb{R}^3$. Without computing any matrices, explain why $\lambda=1$ is always an eigenvalue of $T$. What is the corresponding eigenspace?
+
+For a 3d rotation, there will always be a rotation of axis and some associated degree movement that can completely describe the rotation. That axis is the only "part" of the rotation that is unaffected, by the definition of a 3d rotation. So, the span of that axis is the eigenspace of the $\lambda=1$ eigenvalue of $T$. 
+
+6. Find a $3\times 3$ matrix $A$ with eigenvectors $v_{1}=\begin{bmatrix}1\\2\\3\end{bmatrix}$ with $\lambda=1$, $v_{2}=\begin{bmatrix}0\\-1\\1\end{bmatrix}$ with $\lambda=2$ and $v_{3}=\begin{bmatrix}1\\1\\1\end{bmatrix}$ with $\lambda=10$.
+
+We can form a diagonal matrix with those eigenvalues.
+$$
+D=\begin{bmatrix}
+1 & 0 & 0 \\
+0 & 2 & 0 \\
+0 & 0 & 10
+\end{bmatrix}
+$$
+Then another matrix composed of the eigenvectors associated with the eigenvalues.
+$$
+P=\begin{bmatrix}
+1 & 0 & 1 \\
+2 & -1 & 1 \\
+3 & 1 & 1
+\end{bmatrix}
+$$
+Then $A=PDP^{-1}$
+We must first find $P^{-1}$
+$$
+\left[\begin{array}{ccc|ccc}
+1 & 0 & 1 & 1 & 0 & 0 \\
+2 & -1 & 1 & 0 & 1 & 0 \\
+3 & 1 & 1 & 0 & 0 & 1
+\end{array}\right]
+$$
+$R_{2}-2R_{1}\to R_{2}$
+$R_{3}-3R_{1}\to R_{3}$
+$$
+\left[\begin{array}{ccc|ccc}
+1 & 0 & 1 & 1 & 0 & 0 \\
+0 & -1 & -1 & -2 & 1 & 0 \\
+0 & 1 & -2 & -3 & 0 & 1
+\end{array}\right]
+$$
+$R_{3}+R_{2}\to R_{3}$
+$$
+\left[\begin{array}{ccc|ccc}
+1 & 0 & 1  & 1 & 0 & 0 \\
+0 & -1 & -1 & -2 & 1 & 0 \\
+0 & 0 & -3 & -5 & 1 & 1
+\end{array}\right]
+$$
+$3R_{2}-R_{3}\to R_{2}$
+$3R_{1}+R_{3}\to R_{1}$
+$$
+\left[\begin{array}{ccc|ccc}
+3 & 0 & 0 & -2 & 1 & 1 \\
+0 & -3 & 0 & -1 & 2 & -1 \\
+0 & 0 & -3 & -5 & 1 & 1
+\end{array}\right]
+$$
+$-\frac{1}{3}R_{3}\to R_{3}$
+$-\frac{1}{3}R_{2}\to R_{2}$
+$\frac{1}{3}R_{1}\to R_{1}$
+$$
+\left[\begin{array}{ccc|ccc}
+1 & 0 & 0 & -\frac{2}{3} & \frac{1}{3} & \frac{1}{3} \\
+0 & 1 & 0 & \frac{1}{3} & -\frac{2}{3} & \frac{1}{3} \\
+0 & 0 & 1 & \frac{5}{3} & -\frac{1}{3} & -\frac{1}{3}
+\end{array}\right]
+$$
+Now I can compute $PDP^{-1}$
+$$
+PDP^{-1}=\begin{bmatrix}
+16 & -3 & -3 \\
+\frac{44}{3} & -\frac{4}{3} & -\frac{10}{3} \\
+\frac{46}{3} & -\frac{11}{3} & -\frac{5}{3}
+\end{bmatrix}
+$$
+
+8. Suppose $T:\mathbb{R}^4\to \mathbb{R}^4$ with $T(x)=Ax$ is a linear transformation such that
+- (0,0,1,0) and (0,0,0,1) lie in the kernel of $T$, and
+- all vectors of the form $(x_{1},x_{2},0,0)$ are reflected about the line $2x_{1}-x_{2}=0$
+
+(a) Compute all the eigenvalues of $A$ and a basis for each eigenspace.
+
+Since non zero vectors lie in the kernel of $T$, we could say 0 is an eigenvalue with the basis for its eigenspace being:
+$$
+\left\{ \begin{pmatrix}
+0\\0\\1\\0
+\end{pmatrix},\begin{pmatrix}
+0\\0\\0\\1
+\end{pmatrix} \right\}
+$$
+Next, we know vectors of the form $(x_{1},x_{2},0,0)$ are reflected, so we can say there's an eigenvalue of -1. I think in that case the basis would be:
+$$
+\left\{ \begin{pmatrix}
+1\\0\\0\\0
+\end{pmatrix},\begin{pmatrix}
+0\\1\\0\\0
+\end{pmatrix} \right\}
+$$
+Then there's the line itself. What happens when you input a vector spanned by the reflection line is not super well defined in this problem, so I'm going to assume that it is also reflected, about the origin in that case.
+
+(b) Is $A$ invertible? Explain.
+
+As found when we saw the basis of the 0 eigenvalue eigenspace is 2 dimensional, $A$ has a nullity of 2. For a matrix to be invertible, it must have a nullity of 0, therefore ,$A$ is not invertible.
+
+(c) Is $A$ diagonalizable? If yes, write down its diagonalization. If no, why not?
+
+$A$ is diagonalizable since the eigenvectors are linearly independent and there are four of them, equal to the dimension of $A$. The diagonalization is:
+$$
+A=\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}\begin{bmatrix}
+-1 & 0 & 0 & 0 \\
+0 & -1 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0
+\end{bmatrix}\begin{bmatrix}
+1 & 1 & 
+\end{bmatrix}
+$$
