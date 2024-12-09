@@ -396,16 +396,19 @@ $$
 0\\0\\0\\1
 \end{pmatrix} \right\}
 $$
-Next, we know vectors of the form $(x_{1},x_{2},0,0)$ are reflected, so we can say there's an eigenvalue of -1. I think in that case the basis would be:
+Next, we know vectors of the form $(x_{1},x_{2},0,0)$ are reflected, so we can say there are eigenvalues of 1 and -1, 1 where the input vector is in the span of the reflecting vector, and -1 where the input vector is perpendicular to the reflection vector.
+For the eigenspace of 1, the span is
 $$
 \left\{ \begin{pmatrix}
-1\\0\\0\\0
-\end{pmatrix},\begin{pmatrix}
-0\\1\\0\\0
+1\\2\\0\\0
 \end{pmatrix} \right\}
 $$
-Then there's the line itself. What happens when you input a vector spanned by the reflection line is not super well defined in this problem, so I'm going to assume that it is also reflected, about the origin in that case.
-
+And for the eigenspace of -1, the span is
+$$
+\left\{ \begin{pmatrix}
+2\\-1\\0\\0
+\end{pmatrix} \right\}
+$$
 (b) Is $A$ invertible? Explain.
 
 As found when we saw the basis of the 0 eigenvalue eigenspace is 2 dimensional, $A$ has a nullity of 2. For a matrix to be invertible, it must have a nullity of 0, therefore ,$A$ is not invertible.
@@ -415,16 +418,19 @@ As found when we saw the basis of the 0 eigenvalue eigenspace is 2 dimensional, 
 $A$ is diagonalizable since the eigenvectors are linearly independent and there are four of them, equal to the dimension of $A$. The diagonalization is:
 $$
 A=\begin{bmatrix}
-1 & 0 & 0 & 0 \\
-0 & 1 & 0 & 0 \\
+2 & 1 & 0 & 0 \\
+-1 & 2 & 0 & 0 \\
 0 & 0 & 1 & 0 \\
 0 & 0 & 0 & 1
 \end{bmatrix}\begin{bmatrix}
 -1 & 0 & 0 & 0 \\
-0 & -1 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
 0 & 0 & 0 & 0 \\
 0 & 0 & 0 & 0
 \end{bmatrix}\begin{bmatrix}
-1 & 1 & 
-\end{bmatrix}
+2 & 1 & 0 & 0 \\
+-1 & 2 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}^{-1}
 $$
