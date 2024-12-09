@@ -304,7 +304,41 @@ $$
 \lambda=\frac{1}{2}\pm \sqrt{ -\frac{3}{2} }
 \end{align}
 $$
-The eigenvalues, $\lambda_{1}=\frac{1+i\sqrt{ 3 }}{2}$ and $\lambda_{2}=\frac{1-i\sqrt{ 3 }}{2}$ are imaginary. I really don't want to work out the eigenvectors mathematically because that would be painful 😭😭
+The eigenvalues, $\lambda_{1}=\frac{1+i\sqrt{ 3 }}{2}$ and $\lambda_{2}=\frac{1-i\sqrt{ 3 }}{2}$ are imaginary. I really don't want to work out the eigenvectors mathematically because that will be painful 😭😭
+But we persist:
+$$
+A-\frac{1+i\sqrt{ 3 }}{2}\text{Id}=\begin{bmatrix}
+\frac{1}{2}-\frac{1+i\sqrt{ 3 }}{2} & -\frac{\sqrt{ 3 }}{2} \\
+\frac{\sqrt{ 3 }}{2} & \frac{1}{2}-\frac{1+i\sqrt{ 3 }}{2}
+\end{bmatrix}
+$$
+$$
+=\begin{bmatrix}
+\frac{i\sqrt{ 3 }}{2} & -\frac{\sqrt{3 }}{2} \\
+\frac{\sqrt{ 3 }}{2} & \frac{i\sqrt{ 3 }}{2}
+\end{bmatrix}\to^{GE} \begin{bmatrix}
+i & -1 \\
+0 & 0
+\end{bmatrix}
+$$
+So the basis for the $\lambda_{1}$ eigenvalue is $\begin{pmatrix}i\\1\end{pmatrix}$
+Then for $\lambda_{2}$:
+$$
+A-\frac{1-i\sqrt{ 3 }}{2}\text{Id}=\begin{bmatrix}
+\frac{1}{2}-\frac{1-i\sqrt{ 3 }}{2} & -\frac{\sqrt{ 3 }}{2} \\
+\frac{\sqrt{ 3 }}{2} & \frac{1}{2}-\frac{i-i\sqrt{ 3 }}{2}
+\end{bmatrix}
+$$
+$$
+=\begin{bmatrix}
+-\frac{i\sqrt{ 3 }}{2} & -\frac{\sqrt{ 3 }}{2} \\
+\frac{\sqrt{ 3 }}{2} & -\frac{i\sqrt{ 3 }}{2}
+\end{bmatrix}\to^{GE}\begin{bmatrix}
+-i & -1 \\
+0 & 0
+\end{bmatrix}
+$$
+So a basis for the $\lambda_{2}$ eigenvalue is $\begin{pmatrix}-i\\1\end{pmatrix}$
 
 (b) Let $T:\mathbb{R}^3\to \mathbb{R}^3$ be a rotation in $\mathbb{R}^3$ by $\frac{\pi}{3}$ around some chosen axis $L$, a line through the origin in $\mathbb{R}^3$. Without computing any matrices, explain why $\lambda=1$ is always an eigenvalue of $T$. What is the corresponding eigenspace?
 
