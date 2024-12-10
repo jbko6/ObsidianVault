@@ -59,6 +59,7 @@ $\det(A-\lambda I)=(a^2+c-\lambda)(cd+d^2-\lambda)-(ab+ad)(ac+cd)$
 $$
 \begin{bmatrix}
 1 & 2 \\
-0 & 1
+4 & 1
 \end{bmatrix}
 $$
+
