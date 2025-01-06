@@ -10,5 +10,10 @@ Supposing $a$, $b$, $c$ and $d$ are integers
 	- 0 is called the additive identity
 	- 1 is called the multiplicative identity
 - Additive inverses: There exists an integer $-a$ such that $a+(-a)=(-a)+a=0$
-- Trichotomy: Example one of the following is true: $a>0$, $-a>0, a=0$
-- 
+- Trichotomy: Exactly one of the following is true: $a>0$, $-a>0, a=0$
+- The Well-Ordering Principle: Every non-empty set of positive integers contains a smallest element
+
+Some others
+1. $a*0=0$
+2. If $a+c=b+c$, then $a=b$
+3. $-a$

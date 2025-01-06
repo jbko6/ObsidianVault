@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/CSE 311/Propositions.md",
+                "file": "Classes/Math 300/Elementary Properties of the Integers.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Propositions"
+              "title": "Elementary Properties of the Integers"
             }
           }
         ]
@@ -188,10 +188,10 @@
   },
   "active": "3d35318d9439f351",
   "lastOpenFiles": [
+    "Classes/CSE 311/Propositions.md",
     "Classes/CSE 311/Biconditional.md",
     "Classes/CSE 311/Propositional Variables and Operators.md",
     "Classes/CSE 311/Implication.md",
-    "Classes/CSE 311/Propositions.md",
     "Classes/CSE 311/Truth Table.md",
     "Classes/CSE 311/Logic.md",
     "Classes/Math 300/Elementary Properties of the Integers.md",
