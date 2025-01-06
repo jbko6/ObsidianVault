@@ -1,0 +1,1 @@
+A proof is a chain of [[Statement]]s, using only [[Axiom]]s and logic that convinces us that some statement is true.
