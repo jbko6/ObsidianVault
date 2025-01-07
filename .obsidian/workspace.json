@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Winter '24 Goals.md",
+                "file": "Classes/CSE 311/Truth Table.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Winter '24 Goals"
+              "title": "Truth Table"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "3d35318d9439f351",
   "lastOpenFiles": [
-    "Classes/B E 100/Reading the City (Course Intro).md",
     "Winter '24 Goals.md",
+    "Classes/B E 100/Reading the City (Course Intro).md",
     "Classes/Math 300/Elementary Properties of the Integers.md",
     "Classes/B E 100.md",
     "Classes/B E 100",
