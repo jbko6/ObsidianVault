@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/B E 100/Reading the City (Course Intro).md",
+                "file": "Winter '24 Goals.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reading the City (Course Intro)"
+              "title": "Winter '24 Goals"
             }
           }
         ]
@@ -188,8 +188,9 @@
   },
   "active": "3d35318d9439f351",
   "lastOpenFiles": [
-    "Classes/Math 300/Elementary Properties of the Integers.md",
     "Classes/B E 100/Reading the City (Course Intro).md",
+    "Winter '24 Goals.md",
+    "Classes/Math 300/Elementary Properties of the Integers.md",
     "Classes/B E 100.md",
     "Classes/B E 100",
     "Classes/CSE 311/Propositions.md",
@@ -219,7 +220,6 @@
     "College Laptop.md",
     "Dorm Items.md",
     "Blog/2024-11-19-just-get-it-done.md",
-    "Blog/2024-11-19-continuous-integration-in-everything.md",
     "Classes/Math 208/Pasted image 20241030135232.png",
     "Templates",
     "Blog",
