@@ -13,7 +13,24 @@ Supposing $a$, $b$, $c$ and $d$ are integers
 - Trichotomy: Exactly one of the following is true: $a>0$, $-a>0, a=0$
 - The Well-Ordering Principle: Every non-empty set of positive integers contains a smallest element
 
-Some others
+Some propositions we will draw from these axioms.
 1. $a*0=0$
-2. If $a+c=b+c$, then $a=b$
-3. $-a$
+	Proof:
+
+| Step                                    | Justification          |
+| --------------------------------------- | ---------------------- |
+| a is an integer                         | Hypothesis             |
+| $0+0=0$                                 | Identity               |
+| $(0+0)*a=(0+0)*a$                       | Substitution of equals |
+| $a*(0+0)=0*a$                           | Commutativity          |
+| $a*(0+0)=a*0+a*0$                       | Distributive           |
+| $0*a=0*a+0*a$                           | Commutativity          |
+| There is $-(0*a)$                       | Additive inverses      |
+| $(0*a)+(-(0*a))=((0*a)+(0*a))+(-(0*a))$ | Substitution of equals |
+| $0=0*a+((0*a)-(0*a))$                   | Identity               |
+| $0=0*a+0$                               | Identity               |
+| $0=0*a$                                 | Identity               |
+| $0=a*0$                                 | Commutative            |
+
+1. If $a+c=b+c$, then $a=b$
+2. $-a$

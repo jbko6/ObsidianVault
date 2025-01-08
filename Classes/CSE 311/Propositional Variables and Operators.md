@@ -18,3 +18,5 @@ Logical connectors
 		$p\implies r$
 	[[Biconditional]]
 		$p\iff r$
+
+All expressions can be formed with $\neg$, $\land$, or $\lor$.

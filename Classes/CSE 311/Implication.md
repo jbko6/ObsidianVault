@@ -55,3 +55,32 @@ The arrows are a lot more clear
 - p is sufficient for r
 - r is necessary for p
 All mean $p\implies r$
+
+## Forms of Implications
+We can flip the premise and conclusion: $r\rightarrow p$
+	This is called the converse
+We can form the inverse: $\neg p\rightarrow\neg r$
+Then from the inverse we can form the contrapositive: $\neg r\rightarrow\neg p$
+
+*Consider:*
+$p:$ 6 is divisible by 2 (True!)
+$r:$ 6 is divisible by 4 (False)
+
+| $p\rightarrow r$          | F   |
+| ------------------------- | --- |
+| $r\rightarrow p$          | T   |
+| $\neg r\rightarrow\neg p$ | F   |
+| $\neg p\rightarrow\neg r$ | T   |
+Notice the implication and contrapositive have the same value
+
+How do these relate?
+
+| p   | r   | $p\rightarrow r$ | $r\rightarrow p$ | $\neg p$ | $\neg r$ | $\neg p\rightarrow\neg r$ | $\neg r\rightarrow\neg p$ |
+| --- | --- | ---------------- | ---------------- | -------- | -------- | ------------------------- | ------------------------- |
+| T   | T   |                  |                  | F        | F        |                           |                           |
+| T   | F   | F                |                  | F        | T        |                           | F                         |
+| F   | T   |                  | F                | T        | F        | F                         |                           |
+| F   | F   |                  |                  | T        | T        |                           |                           |
+Notice the contrapositive always has the same values as the original implication. This is a form of [[Equivalence]]
+Notice the implication and its inverse are not equivalent.
+	This happens enough it has a name: fallacy of the inverse

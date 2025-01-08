@@ -67,3 +67,7 @@ Therefore we see this is a bijection
 1. Negation
 2. Conjunction, Disjunction
 4. Implication, Biconditional
+If they are on the same level, then follow associativity
+	Conjunctions, disjunctions, & exclusive or follow **left-to-right**
+	Implication & biconditional follow **right-to-left**
+	
