@@ -1,0 +1,5 @@
+- [ ] Readings for Thursday CEP
+- [ ] Math HW set 1
+- [ ] 390z quick check HW
+- [ ] Built environments photo
+- [ ] 
