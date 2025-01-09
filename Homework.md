@@ -1,5 +1,6 @@
-- [ ] Readings for Thursday CEP
-- [ ] Math HW set 1
-- [ ] 390z quick check HW
+- [x] Readings for Thursday CEP
+- [x] Math HW set 1
+- [x] 390z quick check HW
 - [ ] Built environments photo
-- [ ] 
+- [ ] CSE Homework set
+- [ ] Readings for Tuesday CEP
