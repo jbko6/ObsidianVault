@@ -22,13 +22,15 @@ b. If $a$, $b$, $c$ and $d$ are integers, then $(a+b)+(c+d)=(a+c)+(b+d)$.
 
 c. If $a$, $b$, and $c$ are integers such that $ac=bc$ and $c\neq 0$, then $a=b$.
 
-| Step                                          | Justification    |
-| --------------------------------------------- | ---------------- |
-| $ac=bc$                                       | Hypothesis       |
-| $ac+(-(bc))=0$                                | Additive inverse |
-| $c(a+(-b))=0$                                 | Distributive     |
-| Since $c\neq 0$ and $c(a+(-b))=0$, $a+(-b)=0$ | EPI #6           |
-| $a=b$                                         | Additive inverse |
+| Step                                          | Justification                             |
+| --------------------------------------------- | ----------------------------------------- |
+| $ac=bc$                                       | Hypothesis                                |
+| $ac+(-bc)=bc+(-bc)$                           | Additive inverse & Substitution of equals |
+| $ac+(-(bc))=0$                                | Additive inverse                          |
+| $c(a+(-b))=0$                                 | Distributive                              |
+| Since $c\neq 0$ and $c(a+(-b))=0$, $a+(-b)=0$ | EPI #6                                    |
+| $a+(-b)+b=0+b$                                | Additive inverse                          |
+| $a=b$                                         | Additive inverse & identity               |
 
 d. *Binomial Expansion*: If $a$ and $b$ are integers, then $(a+b)^2=(a^2+2ab)+b^2=a^2+(2ab+b^2)$
 (Note: For any integer $x$, $x^2=x\cdot x$ and $x+x=2x$)

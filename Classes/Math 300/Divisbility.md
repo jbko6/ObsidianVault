@@ -1,0 +1,1 @@
+[[Definition]]: Let $a$ and $b$ be integers. We say that $a$ divides $b$ or that $b$ is divisible by $a$, if there exists an integer $c$ such that $b=a*c$.
