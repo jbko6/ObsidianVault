@@ -1,7 +1,7 @@
 {
-  "snippets_file": "pagebreak : <div style=\"page-break-after: always;\"></div>$nl$",
+  "snippets_file": "pagebreak : <div style=\"page-break-after: always;\"></div>$nl$$nl$",
   "snippets": [
-    "pagebreak : <div style=\"page-break-after: always;\"></div>$nl$"
+    "pagebreak : <div style=\"page-break-after: always;\"></div>$nl$$nl$"
   ],
   "endSymbol": "$end$",
   "newlineSymbol": "$nl$",
