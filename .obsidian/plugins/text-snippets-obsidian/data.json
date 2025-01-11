@@ -1,0 +1,14 @@
+{
+  "snippets_file": "pagebreak : <div style=\"page-break-after: always;\"></div>$nl$",
+  "snippets": [
+    "pagebreak : <div style=\"page-break-after: always;\"></div>$nl$"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": false,
+  "useSpace": true,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}
