@@ -4,3 +4,4 @@
 - [ ] Built environments photo
 - [x] CSE Homework set
 - [ ] Readings for Tuesday CEP
+- [ ] Review Math and CSE hw
