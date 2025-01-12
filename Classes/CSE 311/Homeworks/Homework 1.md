@@ -257,3 +257,20 @@ SAT -1 -2 3 4 -5 -6 -7 8 -9 10 -11 -12 -13 14 -15
 ```
 
 This output means Alex should get a blue hat, Bobby should get a red hat, Chris should get a green hat, Dylan should get a red hat, and Erin should get a green hat.
+
+<div style="page-break-after: always;"></div>
+
+#### Task 7 - Extra Credit: XNORing
+
+| $R_{1}$ | $R_{2}$ | $R_{1}:R_{1}\leftrightarrow R_{2}$ | $R_{2}:R_{1}\leftrightarrow R_{2}$ | $R_{1}:R_{1}\leftrightarrow R_{2}$ | $R_{1}$ | $R_{2}$ |
+| ------- | ------- | ---------------------------------- | ---------------------------------- | ---------------------------------- | ------- | ------- |
+| T       | T       | T                                  | T                                  | T                                  | T       | T       |
+| T       | F       | F                                  | T                                  | F                                  | F       | T       |
+| F       | T       | F                                  | F                                  | T                                  | T       | F       |
+| F       | F       | T                                  | F                                  | F                                  | F       | F       |
+
+The operations required:
+1. $R_{1}:=\text{XNOR}(R_{1},R_{2})$
+2. $R_{2}:=\text{XNOR}(R_{1},R_{2})$
+3. $R_{1}:=\text{XNOR}(R_{1},R_{2})$
+
