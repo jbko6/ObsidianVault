@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/CSE 311/Homeworks/Homework 1.md",
+                "file": "Classes/BE 100/Creating a New City, 1851-1889.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homework 1"
+              "title": "Creating a New City, 1851-1889"
             }
           }
         ]
@@ -188,6 +188,8 @@
   },
   "active": "8d9a5e22aa3db722",
   "lastOpenFiles": [
+    "Classes/CSE 311/Homeworks/Homework 1.md",
+    "Classes/BE 100/Creating a New City, 1851-1889.md",
     "Classes/Math 300/Homeworks/Homework Set 1.md",
     "Homework.md",
     "Classes/CSE 311/Equivalence Chains.md",
@@ -203,7 +205,6 @@
     "Classes/Math 300/Chapter 1",
     "Classes/Math 300/Chapter 1/Divisbility.md",
     "Classes/Math 300/Chapter 1/Theorem.md",
-    "Classes/CSE 311/Homeworks/Homework 1.md",
     "Classes/CSE 311/Biconditional.md",
     "Classes/CSE 311/Logic.md",
     "Classes/CSE 311/Implication.md",
@@ -216,7 +217,6 @@
     "Classes/Math 300/Chapter 1/Proving -a=(-1)a.md",
     "Classes/Math 300/Chapter 1/Definition.md",
     "Classes/Math 300/Chapter 1/Elementary Properties of the Integers.md",
-    "Classes/Math 300/Chapter 1/Axiom.md",
     "Classes/Math 300/Homeworks",
     "Classes/CSE 390z",
     "Ink/Drawing/2025.1.8 - 9.45am.drawing",
