@@ -1,7 +1,7 @@
 - [x] Readings for Thursday CEP
 - [x] Math HW set 1
 - [x] 390z quick check HW
-- [ ] Built environments photo
+- [x] Built environments photo
 - [x] CSE Homework set
 - [ ] Readings for Tuesday CEP
 - [ ] Review Math and CSE hw

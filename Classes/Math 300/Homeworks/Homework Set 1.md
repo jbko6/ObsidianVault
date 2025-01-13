@@ -4,33 +4,35 @@
 
 a. If $a$ and $b$ are integers and $a+b=a$, then $b=0$.
 
-| Step                                          | Justification          |
-| --------------------------------------------- | ---------------------- |
-| Suppose $a$, and $b$ are integers and $a+b=a$ | Hypothesis             |
-| $a+0=a$                                       | Substitution of equals |
-| $a=a$                                         | Identity               |
-
+| Step                                          | Justification    |
+| --------------------------------------------- | ---------------- |
+| Suppose $a$, and $b$ are integers and $a+b=a$ | Hypothesis       |
+| $a+b+(-a)=0$                                  | Additive inverse |
+| $b+a+(-a)=0$                                  | Commutative      |
+| $b=0$                                         | Additive inverse |
 
 b. If $a$, $b$, $c$ and $d$ are integers, then $(a+b)+(c+d)=(a+c)+(b+d)$.
 
-| Step                                                                 | Justification |
-| -------------------------------------------------------------------- | ------------- |
-| Suppose $a$, $b$, and $c$ are integers and $(a+b)+(c+d)=(a+c)+(b+d)$ | Hypothesis    |
-| $(a+b)+(c+d)=a+(c+b)+d$                                              | Associativity |
-| $(a+b)+(c+d)=a+(b+c)+d$                                              | Commutativity |
-| $(a+b)+(c+d)=(a+b)+(c+d)$                                            | Associativity |
+| Step                                                                   | Justification |
+| ---------------------------------------------------------------------- | ------------- |
+| Suppose $a$, $b$, and $c$ are integers, then $(a+b)+(c+d)=(a+c)+(b+d)$ | Hypothesis    |
+| Start with $(a+b)+(c+d)=(a+b)+(c+d)$                                   |               |
+| $(a+b)+(c+d)=a+(b+c)+d$                                                | Associativity |
+| $(a+b)+(c+d)=a+(c+b)+d$                                                | Commutativity |
+| $(a+b)+(c+d)=(a+c)+(b+d)$                                              | Associativity |
 
 c. If $a$, $b$, and $c$ are integers such that $ac=bc$ and $c\neq 0$, then $a=b$.
 
-| Step                                          | Justification                             |
-| --------------------------------------------- | ----------------------------------------- |
-| $ac=bc$                                       | Hypothesis                                |
-| $ac+(-bc)=bc+(-bc)$                           | Additive inverse & Substitution of equals |
-| $ac+(-(bc))=0$                                | Additive inverse                          |
-| $c(a+(-b))=0$                                 | Distributive                              |
-| Since $c\neq 0$ and $c(a+(-b))=0$, $a+(-b)=0$ | EPI #6                                    |
-| $a+(-b)+b=0+b$                                | Additive inverse                          |
-| $a=b$                                         | Additive inverse & identity               |
+| Step                                          | Justification               |
+| --------------------------------------------- | --------------------------- |
+| $ac=bc$                                       | Hypothesis                  |
+| $ac+(-bc)=bc+(-bc)$                           | Additive inverse            |
+| $ac+(-(bc))=0$                                | Additive inverse            |
+| $ac+(-b)c=0$                                  | Commutative                 |
+| $c(a+(-b))=0$                                 | Distributive                |
+| Since $c\neq 0$ and $c(a+(-b))=0$, $a+(-b)=0$ | EPI #6                      |
+| $a+(-b)+b=0+b$                                | Additive inverse            |
+| $a=b$                                         | Additive inverse & identity |
 
 d. *Binomial Expansion*: If $a$ and $b$ are integers, then $(a+b)^2=(a^2+2ab)+b^2=a^2+(2ab+b^2)$
 (Note: For any integer $x$, $x^2=x\cdot x$ and $x+x=2x$)
@@ -46,6 +48,8 @@ d. *Binomial Expansion*: If $a$ and $b$ are integers, then $(a+b)^2=(a^2+2ab)+b^
 | $(a(a)+2ab)+b(b)=(a^2+2ab)+b^2$         | Problem note  |
 | $(a^2+2ab)+b^2=(a^2+2ab)+b^2$           | Problem note  |
 | $(a^2+2ab)+b^2=a^2+(2ab+b^2)$           | Associative   |
+<div style="page-break-after: always;"></div>
+
 
 #### 1.2
 
@@ -63,7 +67,7 @@ TRUE. If both $b$ and $c$ are divisible by $a$, then they must be multiples of $
 
 d. If $a|b$, then $a\leq b$
 
-TRUE. Since we're only working with integers here, $b$ must only either be $a$ or a multiple of $a$, both of which are greater than or equal to $a$.
+FALSE. If $b=0$ and $a=10$, then 0 is divisible by 10 ($10*0=0$), but $10>0$.
 
 e. If $a$ is an integer, then $2a$ and $3a$ have opposite parity.
 

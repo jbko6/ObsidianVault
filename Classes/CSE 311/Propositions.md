@@ -70,4 +70,10 @@ Therefore we see this is a bijection
 If they are on the same level, then follow associativity
 	Conjunctions, disjunctions, & exclusive or follow **left-to-right**
 	Implication & biconditional follow **right-to-left**
-	
+
+#### Classes of Propositions
+A compound proposition is a
+- *Tautology* if it is always true
+- *Contradiction* if is is always false
+- *Contingency* if it can either be true or false
+- 

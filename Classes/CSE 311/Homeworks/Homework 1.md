@@ -6,8 +6,7 @@ $p=\text{The cat is inside the box}$
 $q=\text{The box is closed}$
 $r=\text{The cat is alive}$
 
-The first statement can be translated to: $(p\land q)\to(r\land \neg r)$
-The second statement can be translated to: $(\neg p\lor \neg q)\to(r\oplus \neg r)$
+$((p\land q)\to(r\land \neg r))\land((\neg p\lor \neg q)\to(r\oplus \neg r))$
 
 ###### b. Define a set of at most four atomic propositions. Then, use those propositions to translate each of these sentences
 
