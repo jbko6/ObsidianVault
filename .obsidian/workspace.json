@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homework.md",
+                "file": "Classes/Math 300/Homeworks/Homework Set 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homework"
+              "title": "Homework Set 1"
             }
           }
         ]
@@ -188,16 +188,18 @@
   },
   "active": "8d9a5e22aa3db722",
   "lastOpenFiles": [
+    "Homework.md",
+    "Classes/CSE 311/Satisfiability (SAT).md",
+    "Classes/CSE 311/note.md",
+    "Classes/CSE 311/De Morgan's Laws.md",
+    "Classes/Math 208/Assignments/10-2-24 Required.md",
     "Classes/BE 100/Creating a New City, 1851-1889.md",
     "Classes/CSE 311/Homeworks/Homework 1.md",
     "Classes/Math 300/Homeworks/Homework Set 1.md",
-    "Homework.md",
     "Classes/CSE 311/Equivalence Chains.md",
     "Classes/CSE 311/Propositional Variables and Operators.md",
-    "Classes/CSE 311/De Morgan's Laws.md",
     "Classes/CSE 311/Propositions.md",
     "Classes/CSE 311/Equivalence.md",
-    "Classes/CSE 311/Satisfiability (SAT).md",
     "Classes/Math 300/Chapter 2/Logic.md",
     "Classes/Math 300/Chapter 1/Absolute Value.md",
     "Classes/Math 300/Chapter 2",
@@ -215,8 +217,6 @@
     "Classes/CSE 311/Circuits.md",
     "Classes/Math 300/Chapter 1/Boolean Algebra.md",
     "Classes/Math 300/Chapter 1/Proving -a=(-1)a.md",
-    "Classes/Math 300/Chapter 1/Definition.md",
-    "Classes/Math 300/Chapter 1/Elementary Properties of the Integers.md",
     "Classes/Math 300/Homeworks",
     "Classes/CSE 390z",
     "Ink/Drawing/2025.1.8 - 9.45am.drawing",

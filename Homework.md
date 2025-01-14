@@ -3,5 +3,7 @@
 - [x] 390z quick check HW
 - [x] Built environments photo
 - [x] CSE Homework set
-- [ ] Readings for Tuesday CEP
+- [x] Readings for Tuesday CEP
 - [x] Review Math and CSE hw
+- [ ] Readings for Thursday CEP
+- [ ] 
