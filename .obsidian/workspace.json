@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/Math 300/Homeworks/Homework Set 1.md",
+                "file": "Classes/CSE 311/De Morgan's Laws.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homework Set 1"
+              "title": "De Morgan's Laws"
             }
           }
         ]
@@ -188,16 +188,17 @@
   },
   "active": "8d9a5e22aa3db722",
   "lastOpenFiles": [
+    "Classes/CSE 311/Propositional Variables and Operators.md",
+    "Classes/CSE 311/Implication.md",
+    "Classes/CSE 311/Homeworks/Homework 1.md",
+    "Classes/Math 300/Homeworks/Homework Set 1.md",
     "Homework.md",
     "Classes/CSE 311/Satisfiability (SAT).md",
     "Classes/CSE 311/note.md",
     "Classes/CSE 311/De Morgan's Laws.md",
     "Classes/Math 208/Assignments/10-2-24 Required.md",
     "Classes/BE 100/Creating a New City, 1851-1889.md",
-    "Classes/CSE 311/Homeworks/Homework 1.md",
-    "Classes/Math 300/Homeworks/Homework Set 1.md",
     "Classes/CSE 311/Equivalence Chains.md",
-    "Classes/CSE 311/Propositional Variables and Operators.md",
     "Classes/CSE 311/Propositions.md",
     "Classes/CSE 311/Equivalence.md",
     "Classes/Math 300/Chapter 2/Logic.md",
@@ -209,7 +210,6 @@
     "Classes/Math 300/Chapter 1/Theorem.md",
     "Classes/CSE 311/Biconditional.md",
     "Classes/CSE 311/Logic.md",
-    "Classes/CSE 311/Implication.md",
     "Templates/Page break.md",
     "Classes/BE 100/The Built Environment of the Indigenous People of the Salish Sea.md",
     "Classes/CSE 311/Homeworks",
