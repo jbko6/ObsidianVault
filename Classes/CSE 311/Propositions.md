@@ -65,8 +65,12 @@ Therefore we see this is a bijection
 
 #### Propositional Order of Operators
 1. Negation
-2. Conjunction, Disjunction
-4. Implication, Biconditional
+2. For all
+3. Exists
+4. Conjunction, Disjunction
+5. Implication, Biconditional
+6. For all with a comma
+7. Exists with a comma
 If they are on the same level, then follow associativity
 	Conjunctions, disjunctions, & exclusive or follow **left-to-right**
 	Implication & biconditional follow **right-to-left**

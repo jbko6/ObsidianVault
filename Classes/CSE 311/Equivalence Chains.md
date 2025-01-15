@@ -20,3 +20,17 @@ p\land(p\to r)&\equiv p\land(\neg p\lor r) \text{ Law of implication} \\
 &\equiv p
 \end{align}
 $$
+Another example:
+$$
+\begin{align}
+(p\land r)\to(r\lor p)&\equiv \neg(p\land r)\lor(r\land p) \\
+&\equiv(\neg p\lor \neg r)\lor(r\lor p) \\
+&\equiv \neg p\lor(\neg r\lor(r\lor p)) \\
+&\equiv \neg p\lor((\neg r\lor r)\lor p) \\
+&\equiv \neg p\lor(p\lor(\neg r\lor r)) \\
+&\equiv (\neg p\lor p)\lor(\neg r\lor r) \\
+&\equiv(p\lor \neg p)\lor( r\lor \neg r) \\
+&\equiv T\lor T \\
+&\equiv T
+\end{align}
+$$
