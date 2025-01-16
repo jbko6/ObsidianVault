@@ -5,5 +5,5 @@
 - [x] CSE Homework set
 - [x] Readings for Tuesday CEP
 - [x] Review Math and CSE hw
-- [ ] Readings for Thursday CEP
-- [ ] 
+- [x] Readings for Thursday CEP
+- [ ] Math 300 HW set 2
