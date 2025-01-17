@@ -43,14 +43,4 @@ Logical symbols
 | F   | F   | F           |
 $(P\land \neg Q)\lor(\neg P\land Q)$
 
-5. Implication
-Conditional statement, if-then
-
-| $P$ | $Q$ | $P\to Q$ |
-| --- | --- | -------- |
-| T   | T   | T        |
-| T   | F   | F        |
-| F   | T   | T        |
-| F   | F   | T        |
-Implications are used in proofs
-	If the originating axiom or theorem is true, then each individual implication must show that each step is true, leading to a chain that proves our claim
+5. [[Implication]]

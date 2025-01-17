@@ -89,8 +89,32 @@ There exists an integer $a$ such that, for every integer $b$, $a\geq b$.
 
 **j. For all real $x$, if $x\neq0$, then $x^2>0$**
 $\forall x((x\neq 0)\to x^2>0)$
-$\exists x\neg((x\neq 0)\to x^2>0)\equiv \exists x((x=0)\land(x^2>0))$
-There exists a real $x$ equaling 0 such that $x^2>0$.
+$\exists x\neg((x\neq 0)\to x^2>0)\equiv \exists x((x\neq0)\land(x^2\leq0))$
+There exists a real $x\neq 0$ such that $x^2\leq0$.
 
 **k. For every $M>0$, there is an $N>0$ such that, for every $n>N$, $n^2+1>M$**
-$\forall M\exists N\forall n((M>0)\land(N>0)\land (n>N)\land(n^2+1>M))$
+$\forall M\exists N\forall n(((M>0)\land(N>0)\land (n>N))\to(n^2+1>M))$
+$\exists M\forall N\exists n(((M>0)\land(N > 0) \land (n > N))\land(n^2+1\leq M))$
+There exists an $M>0$ such that for all $N>0$ there exists an $n>N$ such that $n^2+1\leq M$
+
+**l. For all integers $a$ and $b$, if $a$ and $b$ are odd, then $4|(a-b)$ or $4|(a+b)$.**
+$\forall a\forall b(((a-1)|2\land(b-1)|2)\to(4|(a-b)\lor 4|(a+b)))$
+$\exists a\exists b(((a-1)|2\lor(b-1|2))\to(4\centernot|(a-b)\land(4\centernot|(a+b))))$
+There exist odd integers $a$ and $b$ such that $(a+b)$ and $(a-b)$ are both not divisible by $4$.
+
+**m. $|a|>0$ if and only if $a\neq 0$.**
+$|a|>0\leftrightarrow a\neq 0$
+$(|a|\leq 0\land a\neq 0)\lor(|a|>0\land a=0)$
+$|a|\leq 0$ and $a\neq 0$ or $|a| >0$ and $a=0$.
+
+#### 2.4
+Write useful contrapositives of the following sentences. Express the contrapositives as sentences, not as symbolic expressions. Reword, if necessary, to clarify the meaning of the contrapositive.
+
+**a. If you earned at least 90% in my class, then you got an A.**
+If you don't get an A, then you didn't earn at least 90% in my class.
+
+**b. If $x$ and $y$ are integers, then $x+y$ is an integer.**
+If $x+y$ isn't an integer, then $x$ and $y$ are not integers.
+
+**c. If it is raining or snowing tomorrow, then I will go for a walk, but I will not ride my bike.**
+If I will ride my bike or not go for a walk, then it is not raining nor snowing tomorrow.

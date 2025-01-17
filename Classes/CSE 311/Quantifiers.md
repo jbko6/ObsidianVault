@@ -35,4 +35,12 @@ We can sound more natural by removing integer names
 	There is a positive integer that is larger than every other positive integer
 	For every positive integer, there is a prime that is larger
 
+#### Negating Quantifiers
+For $\forall$ (for all), the statement becomes $\exists$ (exists) and the inside is also negated
+For $\exists$ (exists), the statement becomes $\forall$ (for all) and the inside is also negate
 
+#### Scope
+Quantifiers can have scope like local variables in Java.
+Only variables within the same parenthesis are the same
+When a variable is created within the scope of a quantifier, it is considered a bound variable and can be changed freely
+	Other variables are considered "free variables" and we shouldn't change their names
