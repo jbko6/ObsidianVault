@@ -1,0 +1,15 @@
+1. When I was young, I lived in Duvall, which is a small town a decent ways out from Seattle. Since we were quite far, we would only take trips to the "big city" every so often. But every time we did, I remembered these voyages fondly. These were my first interactions with an urban environment, and although I saw most of the city from a car, it still never failed to fill me with a sense of awe and wonder. That was what started my interest in urban design. I'm also a CS major, and the first time I was interested in that was when my friend in one of my homeschool camps introduced me to Batch, a really elementary language used to control the command line. Although it can only barely be called a programming language, it still sparked an interest in computing for me.
+2. As mentioned, I do remember all my trips to urban environments fondly. However, I was also fortunate enough to travel a good amount when I was younger. I've travelled to Europe nearly five times by now, but one thing I regret was not paying more attention to the urban form while I was there. I can hardly remember all the details that made those towns enjoyable places to be in, and now I feel I'll have to take more trips there at some other point in my life to remind myself of that.
+3. Really just my parents. I suppose a few select teachers also had a good deal of influence on my life, but as a child I actively rejected the idea of role models because I had this idea in my head that nobody was perfect, and that I should strive to set my own course in life. That has certainly had its effects on my life and one of those is that I can't really recall the people who have had the most influence on me.
+4. My home for sure. I'm a homebody, so my home or personal space is really where I feel most comfortable.
+
+1. Independent, curious, thoughtful, doubting, reticent
+2. I would consider myself a pretty thoughtful person and a pretty self-aware person. I think I'm good at reflecting on my actions from multiple perspectives, which usually allows me to deal with interpersonal conflict adeptly.
+3. Staying focused. I just can't seem to keep motivation up for a lot of things (outside of school).
+4. I love the position I'm in right now. I think I've set things up for myself pretty well and I'm living good right now. I think I should be more grateful for that.
+5. My parents, my friendships, my romantic relationship.
+6. With my friends and my partner.
+
+1. I'm connected to those in the CS department pretty well because of the events they do to form those bonds. I'm also connected to my teachers back at my high school. They did have a decent influence on me. I'm connected to my family well as well, and my partner.
+2. I would like to get more connected to the professors in the Urban Planning & Design department for research opportunities.
+3. My interest in CS has definitely allowed for many connections in that field and my interest in urban planning is starting to open doors for me as well.

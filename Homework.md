@@ -8,3 +8,5 @@
 - [x] Readings for Thursday CEP
 - [ ] Math 300 HW set 2
 - [ ] CSE Homework set 2
+- [ ] CSE 390z quick check
+- [ ] 
