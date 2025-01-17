@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/ASMR/Your Nonchalant boyfriend tries to keep the elevator doors open but gets his hand crushed.md",
+                "file": "Classes/Math 300/Homeworks/Homework Set 2.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Your Nonchalant boyfriend tries to keep the elevator doors open but gets his hand crushed"
+              "title": "Homework Set 2"
             }
           }
         ]
@@ -188,17 +188,18 @@
   },
   "active": "8d9a5e22aa3db722",
   "lastOpenFiles": [
-    "Projects/ASMR/Your Hot GF Falls out of a window trying to cool down.md",
+    "Homework.md",
+    "Classes/Math 300/Homeworks/Homework Set 2.md",
     "Classes/Math 300/Homeworks/Homework Set 1.md",
+    "Classes/Math 300/Chapter 2/Logical Equivalence.md",
     "Projects/ASMR/Your Nonchalant boyfriend tries to keep the elevator doors open but gets his hand crushed.md",
+    "Projects/ASMR/Your Hot GF Falls out of a window trying to cool down.md",
     "Projects/Minecraft Mod/Magic mod.md",
     "Projects/ASMR",
-    "Classes/Math 300/Homeworks/Homework Set 2.md",
     "Projects/Minecraft Mod",
     "Classes/CSE 311/De Morgan's Laws.md",
     "Classes/CSE 311/Equivalence.md",
     "Classes/Math 300/Chapter 2/Logical Symbols.md",
-    "Classes/Math 300/Chapter 2/Logical Equivalence.md",
     "Classes/Math 300/Chapter 2/DeMorgan's Law.md",
     "Classes/CSE 311/Implication.md",
     "Classes/CSE 311/Predicate.md",
@@ -207,7 +208,6 @@
     "Classes/CSE 311/Quantifiers.md",
     "Classes/CSE 311/Satisfiability (SAT).md",
     "Classes/CSE 311/Tools for Analyzing Propositions.md",
-    "Homework.md",
     "Classes/CSE 311/Homeworks/Homework 1.md",
     "Classes/CSE 311/Biconditional.md",
     "Classes/CSE 311/Circuits.md",

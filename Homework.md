@@ -7,3 +7,4 @@
 - [x] Review Math and CSE hw
 - [x] Readings for Thursday CEP
 - [ ] Math 300 HW set 2
+- [ ] CSE Homework set 2
