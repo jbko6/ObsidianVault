@@ -34,3 +34,5 @@ $$
 &\equiv T
 \end{align}
 $$
+![[Pasted image 20250118213313.png]]
+
